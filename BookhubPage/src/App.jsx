@@ -7,6 +7,7 @@ import Downloads from './page/Downloads'
 import ContactUs from './page/ContactUs'
 import { createBrowserRouter, createRoutesFromElements, Route,RouterProvider } from 'react-router-dom'
 import RootLayout from './layout/RootLayout'
+import Footer from "./components/Footer";
 
 
 const App= ()=>{
@@ -23,7 +24,10 @@ const App= ()=>{
     )
   )
   return (
-    <RouterProvider router={router}></RouterProvider>
+    <> 
+        <RouterProvider router={router}></RouterProvider>
+        <Footer></Footer>
+    </>
   )
 }
 
