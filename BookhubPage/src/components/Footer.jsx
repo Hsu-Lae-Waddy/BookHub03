@@ -31,6 +31,7 @@ const Text = styled.p`
 
 function Footer() {
   return (
+  <div className="footer">
     <div className="FooterContainer">
       <Container>
         <Left>
@@ -51,7 +52,8 @@ function Footer() {
         </Right>
       </Container>
       
-    </div>
+     </div>
+    </div>  
   );
 }
 

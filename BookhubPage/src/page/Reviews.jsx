@@ -1,8 +1,14 @@
 import React from "react";
-
+import Comment from "../components/comment";
+import UserReview from "../components/UserReview";
 function Reviews(){
     return(
-        <h1>Review Page</h1>
+        <div className="ReviewContainer"> 
+           <div> 
+           <UserReview></UserReview>
+           </div>
+          
+        </div>
     );
 }
 

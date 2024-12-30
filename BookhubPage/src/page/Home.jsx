@@ -1,8 +1,12 @@
 import React from "react";
+import Cards from '../components/Cards'
 
 function Home(){
     return(
-        <h1>Home Page</h1>
+        <>
+          <Cards></Cards>
+        </>
+        
     );
 }
 
