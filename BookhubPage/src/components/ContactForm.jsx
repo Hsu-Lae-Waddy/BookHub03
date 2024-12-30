@@ -41,10 +41,10 @@ function ContactForm() {
   };
 
   return (
-    <div>
+    <div >
       <div className="contact">
         <form className="contact-form" onSubmit={handleSubmit}>
-          <label>Name: </label>
+          <label><b>Name:  </b></label>
           <input
             type="text"
             name="name"
@@ -53,7 +53,7 @@ function ContactForm() {
             required
           />
 
-          <label>Email: </label>
+          <label> <b>Email:  </b></label>
           <input
             type="email"
             name="email"
@@ -62,7 +62,7 @@ function ContactForm() {
             required
           />
 
-          <label>Message: </label>
+          <label><b>Message:  </b></label>
           <textarea
             name="message"
             value={formData.message}

@@ -81,7 +81,7 @@ form button {
   cursor: pointer;
 }
 form button:hover {
-  background-color: #1acf57;
+  background-color: #0c5e27;
 }
 .C{
   justify-content: center; /* Centers text horizontally */
@@ -91,4 +91,34 @@ form button:hover {
 .texts{
   margin: 10px;
   line-height: 2;
+}
+
+.contactUsPage h2{
+  margin: 2%;
+  color: black;
+  font: 2em sans-serif;
+}
+.contactUsPage p{
+  font: 1em sans-serif;
+  margin: 1%;
+}
+.contactUsPage{
+  margin: 20px;
+  padding: 30px;
+  background-color: #1acf57;
+  animation: changeColor 10s infinite;
+}
+@keyframes changeColor {
+  0% {
+    background-color: #058630; /* First color */
+  }
+  33% {
+    background-color: #39d468; /* Second color (e.g., tomato red) */
+  }
+  66% {
+    background-color: #16dd8a; /* Third color (e.g., steel blue) */
+  }
+  100% {
+    background-color: #35e46f; /* Return to the first color */
+  }
 }

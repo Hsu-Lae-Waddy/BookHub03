@@ -10,6 +10,7 @@ import RootLayout from './layout/RootLayout'
 import Footer from "./components/Footer";
 
 
+
 const App= ()=>{
 
   const router= createBrowserRouter(
@@ -27,6 +28,7 @@ const App= ()=>{
     <> 
         <RouterProvider router={router}></RouterProvider>
         <Footer></Footer>
+
     </>
   )
 }
