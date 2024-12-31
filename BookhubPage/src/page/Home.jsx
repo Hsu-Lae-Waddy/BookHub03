@@ -1,11 +1,11 @@
 import React from "react";
-import Cards from '../components/Cards'
+import CardsCollection from "../components/CardsCollection";
 
 function Home(){
     return(
-        <>
-          <Cards></Cards>
-        </>
+        <div className="bodyPage">
+          <CardsCollection />
+        </div>
         
     );
 }

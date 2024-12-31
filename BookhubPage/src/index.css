@@ -4,17 +4,34 @@
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
 }
+
 a{
   text-decoration: none;
   color: inherit;
 }
-.navbar{
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  display: flex;
+  background-color: #fff;
+  z-index: 1000; /* Ensure it stays above other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   justify-content: space-between;
-  align-items: center;
-  padding: 15px 8%;
 }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color:rgb(14, 170, 118);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
 .navbar ul{
   padding: 10px 30px;
   border-radius: 30px;
@@ -39,7 +56,7 @@ a.active{
   cursor: pointer;
 }
 .logo_img{
-  width: 130px;
+  width: 100px;
 }
 .container {
   display: flex;
@@ -94,13 +111,13 @@ form button:hover {
 }
 
 .contactUsPage h2{
-  margin: 2%;
+  margin: 20px;
   color: black;
   font: 2em sans-serif;
 }
 .contactUsPage p{
   font: 1em sans-serif;
-  margin: 1%;
+  margin: 10px;
 }
 .contactUsPage{
   margin: 20px;
@@ -172,13 +189,14 @@ form button:hover {
 .commentSection{
   justify-content: center;
   align-items: center;
+  margin: 20px;
   padding: 30px;
   height: auto;
   border-radius: 10px;
   box-shadow: 5px 5px 5px;
   background-color: #b7914e;
-  display: flex; /* Enables Flexbox */
-  flex-direction: column; /* Aligns items in a column */
+  flex-direction: column;
+  display: flex;
 }
 .SubmitBtn{
   margin: 10px;
@@ -201,10 +219,44 @@ input, textarea, .SubmitBtn {
   font-size: 16px; /* Adjusts text size */
 }
 .userReviewsList{
-  margin: 10%;
   text-align: center;
   justify-content: center;
-  display: block;
-
+  margin: 20px;
+}
+.S{
+  margin-bottom: 3%;
+  margin-top: 2%;
 }
 
+.book-review {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+button {
+  background-color: #1acf57;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #16b04d;
+}
+.bodyPage {
+  padding-top: 60px; /* Adjust to the height of the navbar */
+  padding-bottom: 50px; /* Adjust to the height of the footer */
+}
+html, body, #root, .container , .bodyPage{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}

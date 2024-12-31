@@ -25,9 +25,8 @@ const App= ()=>{
     )
   )
   return (
-    <> 
+    <>
         <RouterProvider router={router}></RouterProvider>
-        <Footer></Footer>
 
     </>
   )

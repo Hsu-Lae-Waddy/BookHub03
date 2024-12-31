@@ -17,9 +17,9 @@ function Comment(){
 
     return(
         <div className="commentSection">
-            <h4 className="H">Share books you’re reading now or plan to pick up soon</h4>
+            <h4 >Share books you’re reading now or plan to pick up soon</h4>
              <input value={name} onChange={handleNameChange} placeholder="Guest" />
-             <p>Name: <b>{name}</b></p>
+             <p >Name: <b>{name}</b></p>
              <textarea value={comment} onChange={handleComment} placeholder="Free Suggestion" />
              <p>Suggestion: {comment}</p>
              <button className="SubmitBtn" onClick={handleSubmit}>Submit</button>

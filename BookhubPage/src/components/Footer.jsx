@@ -5,7 +5,7 @@ import Pic from '../assets/Books.jpg';
 const Container = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 5%;
   background-color:rgb(14, 170, 118);
 `;
 
