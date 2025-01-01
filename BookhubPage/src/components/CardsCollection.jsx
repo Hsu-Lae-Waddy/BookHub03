@@ -58,7 +58,7 @@ function CardsCollection() {
     },
     {
         img:BookJimmy,
-        bookName:"တစ်ကောင်တည်းပဲပဲ",
+        bookName:"တစ်ကောင်တည်းပဲ",
         bookAuthor:"Jimmy",
         path:"https://t.me/BookspdfNL/293",
     },
