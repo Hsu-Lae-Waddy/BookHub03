@@ -32,7 +32,6 @@ const Text = styled.p`
 function Footer() {
   return (
   <div className="footer">
-    <div className="FooterContainer">
       <Container>
         <Left>
           <Img src={Pic} alt="Books" />
@@ -51,8 +50,6 @@ function Footer() {
           <p className="C">© 2025 BookHub. All rights reserved.</p>
         </Right>
       </Container>
-      
-     </div>
     </div>  
   );
 }

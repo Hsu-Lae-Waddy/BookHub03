@@ -1,8 +1,9 @@
 import React from "react";
+import BookShelfDraft from "../components/Bookshelfdraft";
 
 function Bookshelf(){
     return(
-        <h1>Bookshelf Page</h1>
+        <BookShelfDraft></BookShelfDraft>
     );
 }
 

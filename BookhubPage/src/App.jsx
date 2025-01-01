@@ -10,6 +10,7 @@ const App = () => {
     return (
         <>
             <NavBar />
+            <div className='WholePage'> 
             <div id="home">
                 <Home />
             </div>
@@ -21,6 +22,7 @@ const App = () => {
             </div>
             <div id="contact-us">
                 <ContactUs />
+            </div>
             </div>
             <Footer />
         </>

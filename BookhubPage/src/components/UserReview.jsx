@@ -38,7 +38,19 @@ function UserReview() {
         "ဒီစာအုပ်လေးက ဘာသာပြန်စာအုပ်လေးပါမူရင်းကတော့ စာရေးဆရာကြီး Jeffrey Archer ရေးထားတဲ့ Kane and Abel ဖြစ်ပါတယ် 。 မူရင်းစာအုပ်ထုတ်ဝေတုန်းကလည်း New York Times မှာ No.1 ဖြစ်ခဲ့ပါတယ် 。 နာမည်ကြီး ဝတ္ထုတွေဖြစ်တဲ့ Gone With The Wind တို့ To Kill a Mockingbird တို့နဲ့ ရောင်းအားတူခဲ့ပါတယ်。 " +
         "အခုဆရာကြီးမောင်ပေါ်ထွန်း  ဘာသာပြန်တော့လည်း အရေးအသားကတစ်ကယ် ကျစ်လစ်ပြီး ဖတ်ရအဆင်ပြေပါတယ် 。 Parallel Stories ပုံစံလေးနဲ့ ရေးထားတာပါ။ ညီမသိသလောက်တော့ အခုထိထုတ်ဝေတာ စတုတ္ထ  အကြိမ်ရှိနေပါပြီ 。 တစ်ခါလောက် ဖတ်ကြည့်ဖို့ Recommend ပေးပါတယ် ",
       user: "May T H ",
-    },
+    },{
+      id: 4,
+      bookName:"ချစ်သောပန်းကလေး -မင်းလူ",
+      review:"အခုမိတ်ဆက်ပေးချင်တဲ့ စာအုပ်လေး က ဆရာမင်းလူ ရဲ့ ချစ်သော ပန်းကလေး တဲ့။"+
+      "ဘူမိဗေဒ ကျောင်းသားတွေ field ဆင်းရာက ပေါက်ဖွားလာတဲ့ ဝတ္ထုကောင်း တစ်ပုဒ်ပဲဖြစ်ပါတယ်။ field ဆင်းရတာ ဒီလောက်ပင်ပန်း တာကို ဘာဇာတ်လမ်းတွေ များ ထူးထူးခြားခြား ရှိမှာ မို့လို့လဲ?"+
+      "မသိလို့ပါဆရာရယ် ၊ ပြောပြစမ်းပါကွယ် ဆိုရင်တော့ ပြောပြရသေးတာပ။ ဆရာမင်းလူက ဇာတ်လမ်းကို ရန်ကုန်ဘူတာကြီးက စပါတယ်။ ကွင်းဆင်းကြတော့ မယ့် တက္ကသိုလ် ကျောင်းသားကြီး တွေကို သက်ဆိုင်သူ အသီးသီး(မိဘ၊ရည်းစား၊သူငယ်ချင်း) က လိုက်ပို့ ကြတဲ့ မြင်ကွင်း ပေါ့။ အဲ့ဒီမှာတော့ ဇာတ်ကောင် များစွာ ရဲ့ ဇာတ်ကောင် စရိုက်များစွာကို လူငယ်ဆန်ဆန် ပေါ့ပါးသွက်လက် တဲ့ အရေးအသားမျိုးနဲ့ တွေ့ ရဦးမှာပါ။ "+
+      "ဒါဆို ဘယ်သူက အဓိကဇာတ်ဆောင်ပါလိမ့် လို့တွေးနေပြီလား? - မလောပါနဲ့ မိတ်ဆွေ...ဒီလိုနဲ့ ရထားပေါ်ရောက် တက္ကသိုလ်တုန်းက အထာတွေကို ပြန်ရေးပြ ၊ ရည်းစား ကိုလွမ်းကြ ...ဒီလိုနဲ့ပဲ သူတို့ ကွင်းဆင်းရမယ့် ကျွဲတပ်ဆုံ ကိုရောက်ကြပါတယ်။ ဒါပေမယ့်..."+
+      "ဇာတ်ကောင်တိုင်းက စာရေးသူ ရဲ့ သဘောအတိုင်းဖြစ်မလာ တဲ့ အခါမှာ တော့ စာရေးသူ ရဲ့ သဘောအတိုင်း လှုပ်ရှားမယ့် ကိုအောင် က ဇာတ်ရဲ့ အလယ်လောက်မှာ အဓိက ဇာတ်ကောင်ဖြစ်လာပါတယ်။ သူက အချစ်ရေးနဲ့ပက်သက်လာရင် တကယ့်ကို လူထုံလူအကြီး လေ။"+
+      "ကွင်းဆင်းရင်းနဲ့  မထင်မှတ်ပဲ ကိုအောင် ရဲ့ မပွင့်တပွင့် နှလုံးသာ ကို နိုးထ လာစေ တဲ့ ဆယ်တန်းအောင် တောသူလေး စိန်တင်...အချစ်နဲ့ပက်သက်လာရင် လူတွေက ကဗျာဆရာလည်း ဖြစ်နိုင်ကြပါတယ်လေ...။"+
+      "ကျွန်တော့် ကိုချစ်ရင် ပန်းအဖြူပန်ထားပါ ။ မချစ်ဘူး ဆိုရင် ပန်းအနီပန်ထားပါနော် တဲ့...  ပြန်ခါနီး ဧည့်သည်တစ်ယောက်ရဲ့ နောက်ဆုံး စကားပေါ့..."+
+      "သူပန်းအနီတွေကို တကယ် မုန်းခဲ့တယ် ဆိုတာကို ကွင်းဆင်းရင်း ဂျီထောင် ထားတဲ့ ထောင်ခြောက်ဟောင်းကို ဝင်တိုး မိလို့ ချိန်းထားတဲ့နေရာကို အချိန်မီ မရောက်လိုက်နိုင်တော့တဲ့ ကိုအောင်သာ အသိဆုံးဖြစ်မှာပါ။ ",
+      user: "Review by Phone Khit Tshin",
+    }
   ];
 
   // Toggle "See More" state for each review
@@ -63,12 +75,19 @@ function UserReview() {
       user: name,
     };
     setReviews((prevReviews) => [...prevReviews, newReview]);
+    const updatedReviews = [...reviews, newReview];
+    setReviews(updatedReviews);
+    // Save updated reviews to localStorage
+    localStorage.setItem('reviews', JSON.stringify(updatedReviews));
   };
-// Function to handle deleting a review
-  const deleteReview = (id) => {
-    const filteredReviews = reviews.filter((review) => review.id !== id);
-    setReviews(filteredReviews);
-  };
+  
+ // Function to handle deleting a review
+ const deleteReview = (id) => {
+  const filteredReviews = reviews.filter((review) => review.id !== id);
+  setReviews(filteredReviews);
+  // Save updated reviews to localStorage
+  localStorage.setItem('reviews', JSON.stringify(filteredReviews));
+};
 
   const ReviewsList = reviews.map((userReview) => (
     <li key={userReview.id}>
@@ -79,7 +98,7 @@ function UserReview() {
         : userReview.review.slice(0, 300) + "..."}{" "}
       {/* Truncate review initially */}
       <button onClick={() => toggleReview(userReview.id)}>
-        {expandedReviews[userReview.id] ? "See Less" : "See More"}
+        {expandedReviews[userReview.id] ? "see less" : "see more"}
       </button>
       <br />
       "from" <b>{userReview.user}</b>
