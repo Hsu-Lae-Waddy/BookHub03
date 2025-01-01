@@ -51,7 +51,26 @@ function UserReview() {
     }));
   };
 
-  const ReviewsList = UserReviews.map((userReview) => (
+  // State to store the reviews
+  const [reviews, setReviews] = useState(UserReviews);
+
+  // Function to handle new comment submission
+  const addNewReview = (name, bookName, comment) => {
+    const newReview = {
+      id: reviews.length + 1, // Increment the ID based on the current reviews length
+      bookName: bookName, // Receive the bookName from the Comment component
+      review: comment,
+      user: name,
+    };
+    setReviews((prevReviews) => [...prevReviews, newReview]);
+  };
+// Function to handle deleting a review
+  const deleteReview = (id) => {
+    const filteredReviews = reviews.filter((review) => review.id !== id);
+    setReviews(filteredReviews);
+  };
+
+  const ReviewsList = reviews.map((userReview) => (
     <li key={userReview.id}>
       <b>{userReview.bookName}</b> :<br />
       &nbsp;
@@ -69,12 +88,16 @@ function UserReview() {
   ));
 
   return (
-    <>  <div className="block"> 
-        <ol className="block">{ReviewsList}</ol>
-        <Comment/>
-        </div>
+    <>
+      <ol>{ReviewsList}</ol>
+      <Comment onSubmit={addNewReview} />
     </>
   );
 }
 
 export default UserReview;
+
+
+ // <button onClick={() => deleteReview(userReview.id)}>Delete</button> //
+ // if I want to delete the user review to put the button under  "from" <b>{userReview.user}</b>//
+   //  line 86//

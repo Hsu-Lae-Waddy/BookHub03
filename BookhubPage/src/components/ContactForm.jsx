@@ -42,7 +42,7 @@ function ContactForm() {
 
   return (
     <div >
-      <div className="contact">
+      <div>
         <form className="contact-form" onSubmit={handleSubmit}>
           <label><b>Name:  </b></label>
           <input

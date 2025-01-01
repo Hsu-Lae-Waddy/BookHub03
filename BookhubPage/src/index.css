@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 a{
   text-decoration: none;
@@ -21,7 +24,6 @@ a{
 }
 
 .footer {
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -31,33 +33,52 @@ a{
   padding: 10px;
   z-index: 1000; /* Ensure it stays above other content */
 }
-
-.navbar ul{
-  padding: 10px 30px;
-  border-radius: 30px;
-  box-shadow: 0 0 30px 0 rgb(0,0,0,0.1);
-}
-.navbar ul li{
-  display: inline-block;
-  padding: 5px 10px;
-  margin: 0 10px;
-}
-a.active{
-  color: rgb(187, 255, 0);
-}
-.navbar button{
-  background-color: #000;
-  color: #fff;
-  padding: 12px 25px;
-  border: 0;
-  border-radius: 30px;
-  outline: 0; 
-  font-size: 16px;
-  cursor: pointer;
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  z-index: 1000; /* Ensure it stays above other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 0 20px; 
 }
 .logo_img{
-  width: 100px;
+  width: 120px;
+  margin: 0;
+  padding: 1px;
+  border-radius: 30px;
 }
+
+.navbar li{
+  display: inline-block;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+}
+nav ul {
+  display: flex; /* Flexbox for horizontal layout */
+  gap: 100px; /* Space between items */
+  list-style-type: none; /* Remove bullet points */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+  align-items: center; /* Center text vertically within the navbar */
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+
+nav a:hover {
+  color: rgb(187, 255, 0);
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -91,14 +112,14 @@ form input, form textarea {
 }
 
 form button {
-  background-color: #23af00d2;
+  background-color: #af7200d2;
   color: white;
   border: none;
   padding: 10px;
   cursor: pointer;
 }
 form button:hover {
-  background-color: #0c5e27;
+  background-color: #af9313;
 }
 .C{
   justify-content: center; /* Centers text horizontally */
@@ -119,24 +140,19 @@ form button:hover {
   font: 1em sans-serif;
   margin: 10px;
 }
-.contactUsPage{
-  margin: 20px;
-  padding: 30px;
-  background-color: #1acf57;
-  animation: changeColor 20s infinite;
-}
+
 @keyframes changeColor {
   0% {
-    background-color: #058630; /* First color */
+    background-color: rgb(224, 168, 95); /* First color */
   }
   33% {
-    background-color: #39d468; /* Second color (e.g., tomato red) */
+    background-color:rgb(151, 99, 31); /* Second color (e.g., tomato red) */
   }
   66% {
-    background-color: #16dd8a; /* Third color (e.g., steel blue) */
+    background-color: rgb(224, 171, 101); /* Third color (e.g., steel blue) */
   }
   100% {
-    background-color: #089c39; /* Return to the first color */
+    background-color: rgb(202, 160, 104); /* Return to the first color */
   }
 }
 .card{
@@ -186,18 +202,17 @@ form button:hover {
 .footer{
   display: block;
 }
-.commentSection{
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
+.commentSection {
+  margin: 30px auto; /* Center horizontally with auto margin and add vertical spacing */
   padding: 30px;
-  height: auto;
   border-radius: 10px;
   box-shadow: 5px 5px 5px;
   background-color: #b7914e;
-  flex-direction: column;
-  display: flex;
+  width: 80%; /* Restrict width */
+  max-width: 600px; /* Limit maximum width */
+  text-align: center; /* Center-align text (optional) */
 }
+
 .SubmitBtn{
   margin: 10px;
   background-color: chocolate;
@@ -249,14 +264,33 @@ button:hover {
 .bodyPage {
   padding-top: 60px; /* Adjust to the height of the navbar */
   padding-bottom: 50px; /* Adjust to the height of the footer */
+  margin: 30px;
 }
-html, body, #root, .container , .bodyPage{
-  height: 100%;
-  margin: 0;
-  padding: 0;
+
+#home, #bookshelf, #reviews, #downloads, #contact-us {
+  padding: 50px;
+  min-height: 100vh; /* Makes each section take full screen height */
+  scroll-margin-top: 60px; /* Offset for sticky NavBar */
 }
-.container {
+.ContactUsPic {
+  width: 600px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.contactUsPage {
+  margin: auto;
+  padding: 30px;
+  background-color: #837007;
+  animation: changeColor 20s infinite;
+  border-radius: 30px;
+  width: 80%; /* Restrict width */
+  max-width: 600px;
+}
+.containerForContactUs{
   display: flex;
-  flex-direction: column;
-  flex-grow: 1;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: space-between; /* Add space between the two elements */
+  gap: 20px; /* Space between the image and the content */
+  background-color: rgb(231, 181, 114);
 }

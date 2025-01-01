@@ -4,6 +4,7 @@ import BookPuNyaKhin from "../assets/BookPuNyaKhin.jpg";
 import Book3 from "../assets/Book3.jpg"
 import BookYuNweLinn from "../assets/BookYuNweLinn.jpg"
 import BookJimmy from "../assets/BookJimmy.jpg"
+import BookNineSunday from "../assets/BookNineNineSunday.jpg"
 
 function CardsCollection() {
   const cards = [
@@ -36,6 +37,12 @@ function CardsCollection() {
         bookName:"တစ်ကောင်တည်းပဲပဲ",
         bookAuthor:"Jimmy",
         path:"https://t.me/BookspdfNL/293",
+    },
+    {
+      img:BookNineSunday,
+      bookName:"မသွားရရင် သေနိုင်တယ်",
+      bookAuthor:"နိုင်းနိုင်းစနေစနေ",
+      path:"https://t.me/BookspdfNL/288"
     }
   ];
 
